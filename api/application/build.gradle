@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+mainClassName = "br.com.pedroyodasaito.CleanArchitectureApplication"
+
+dependencies {
+    implementation project(":api")
+    implementation project(":input-boundary")
+    implementation project(":output-boundary")
+    implementation project(":entities")
+    implementation project(":repository")
+    implementation project(":usecase")
+}

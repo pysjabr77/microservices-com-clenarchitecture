@@ -1,0 +1,9 @@
+rootProject.name = 'api'
+include 'application'
+include 'entities'
+include 'input-boundary'
+include 'output-boundary'
+include 'repository'
+include 'usecase'
+include 'api'
+
